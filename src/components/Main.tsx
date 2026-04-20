@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 import '../assets/styles/Main.scss';
@@ -19,6 +20,7 @@ function Main() {
         <div className="content">
           <div className="social_icons">
             <a href="https://github.com/DevireddySaiSwetha" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/saiswetha23/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:devireddysaiswetha@gmail.com"><EmailIcon/></a>
           </div>
           <h1>Sai Swetha Devireddy</h1>
@@ -30,6 +32,7 @@ function Main() {
           </div>
           <div className="mobile_social_icons">
             <a href="https://github.com/DevireddySaiSwetha" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/saiswetha23/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:devireddysaiswetha@gmail.com"><EmailIcon/></a>
           </div>
         </div>
